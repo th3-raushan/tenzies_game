@@ -22,6 +22,16 @@ main{
   align-items: center;
   padding: 10px;
 }
+h1{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+p{
+  font-size: 0.82rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+}
 .dice-container{
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -40,34 +50,42 @@ main{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-.dice-container> button.naah{
+.dice-container> button:hover{
+  transform: translateY(-5px) scale(1.08);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+.dice-container> button.no{
   background-color: #59E391;
 }
 #roll-button{
   width: 92px;
   height: 36px;
-  background-color: #5035FF;
+  background: #4a32ff;
   border-radius: 5px;
   margin-top: 25px;
   border-style: none;
   cursor: pointer;
+}
+#roll-button:hover{
+  background: #ff7b00;
+  box-shadow: 0 0 14px rgba(255, 123, 0, 0.55);
+  color: white;
+}
+#roll-button,
+ #new-game-button:active{
+  transform: scale(0.94);
 }
 #new-game-button{
   width: 92px;
   height: 36px;
-  background-color: green;
+  background-color: #0bbd47;
   border-radius: 5px;
   margin-top: 25px;
   border-style: none;
   cursor: pointer;
 }
-h1{
-  font-size: 1.6rem;
-  font-weight: bold;
+#new-game-button:hover {
+  background: #08ad33;     
+  transform: scale(1.03);  
 }
-p{
-  font-size: 0.82rem;
-  font-weight: 400;
-  margin-bottom: 30px;
-  text-align: center;
-}
+
