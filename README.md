@@ -1,6 +1,8 @@
 # 🎲 Tenzies Game — React Project
 
 A fun and interactive dice-rolling game built using **React**, where players roll dice and freeze matching values until all ten dice show the same number.
+
+
 https://github.com/user-attachments/assets/aad9cd35-f789-42fc-bb40-3238dd63cfb1
 ---
 
